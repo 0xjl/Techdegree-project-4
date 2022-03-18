@@ -382,13 +382,13 @@ a {
 }
 
 .blockquote {
-  font-size: 1.5em;
   font-weight: 300;
+  border-radius: 5px;
+  font-size: 1.5em;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
-  border-radius: 5px;
 }
 
 /* ============================================= */
@@ -405,6 +405,7 @@ a {
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
+  /* Lighten function on hover */
 }
 .btn.default {
   background-color: #51ddfc;
@@ -420,6 +421,21 @@ a {
 }
 .btn.warning {
   background-color: #fd7856;
+}
+.btn.default:hover {
+  background-color: #9cecfd;
+}
+.btn.error:hover {
+  background-color: #f1b5b8;
+}
+.btn.info:hover {
+  background-color: #bdafd9;
+}
+.btn.success:hover {
+  background-color: #9ddfb0;
+}
+.btn.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -465,7 +481,6 @@ a {
   padding: 10px 0;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -520,6 +535,7 @@ a {
   padding: 10px;
 }
 
+/* Tried using one of these lol */
 .theme.col-1 {
   background-color: #927bc1;
 }
@@ -566,6 +582,54 @@ a {
 
 .theme.col-12 {
   background-color: #80e8d1;
+}
+
+.theme.col-1:hover {
+  background-color: #bdafd9;
+}
+
+.theme.col-2:hover {
+  background-color: #feb4a2;
+}
+
+.theme.col-3:hover {
+  background-color: #f9f1fc;
+}
+
+.theme.col-4:hover {
+  background-color: #c9f5fe;
+}
+
+.theme.col-5:hover {
+  background-color: #c2ecce;
+}
+
+.theme.col-6:hover {
+  background-color: #84bfd0;
+}
+
+.theme.col-7:hover {
+  background-color: #f9dfe0;
+}
+
+.theme.col-8:hover {
+  background-color: #fedad0;
+}
+
+.theme.col-9:hover {
+  background-color: #f1b5b8;
+}
+
+.theme.col-10:hover {
+  background-color: #9ddfb0;
+}
+
+.theme.col-11:hover {
+  background-color: #9cecfd;
+}
+
+.theme.col-12:hover {
+  background-color: #c1f4e8;
 }
 
 .card {

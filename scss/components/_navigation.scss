@@ -10,15 +10,14 @@
       @include br-five;
       @include display-block;
       @include full-width;
-      text-align: center;
+      @include text-center;
       padding: 10px 0;
       transition: 
         background-color .2s ease-in-out, 
         color .2s ease-in-out;
+    &:hover {
+      color: #fff;
+      background-color: $color-primary;
     }
-  }
-
-.nav-link:hover {
-    color: #fff;
-    background-color: $nav-color;
+    }
   }
