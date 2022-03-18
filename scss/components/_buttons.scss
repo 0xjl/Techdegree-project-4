@@ -10,6 +10,8 @@
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
+    transition: background-color .2s ease-in-out, 
+    color .2s ease-in-out;
     &.default {
       background-color: $default-color;
     }
@@ -36,10 +38,10 @@
       background-color: lighten($info-color, 15%);
     }
     &.success:hover {
-      background-color:lighten($success-color, 15%);
+      background-color: lighten($success-color, 15%);
     }
     &.warning:hover {
-      background-color:lighten($warning-color, 15%);
+      background-color: lighten($warning-color, 15%);
     }
   }
   

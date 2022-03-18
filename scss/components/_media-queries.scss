@@ -22,15 +22,14 @@
     [class^=col] {
       display: flex;
       justify-content: center;
-      margin-top: 0;
       align-items: center;
+      margin-top: 0;
     }
     
     [class^=col] + [class^=col] {
       margin-left: 10px;
     }
     
-  
     .col-1 {
       flex-basis: 8.33%;
     }
