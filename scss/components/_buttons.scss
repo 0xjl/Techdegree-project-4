@@ -1,0 +1,30 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    @include full-width;
+    @include br-five;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    &.default {
+      background-color: $default-color;
+    }
+    &.error {
+      background-color: $error-color;
+    }
+    &.info {
+      background-color: $info-color;
+    }
+    &.success {
+      background-color: $success-color;
+    }
+    &.warning {
+      background-color: $warning-color;
+    }
+  }
+  
+  
