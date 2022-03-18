@@ -1,4 +1,8 @@
 
+@mixin flex {
+    display: flex;
+}
+
 @mixin flex-column {
     display: flex;
     flex-direction: column;
@@ -7,6 +11,22 @@
 @mixin flex-row {
     display: flex;
     flex-direction: row;
+}
+
+@mixin center {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin wide-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@mixin initial-margin {
+    margin-right: initial;
+    margin-left: initial;
 }
 
 @mixin fb-hundred {

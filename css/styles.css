@@ -6,6 +6,7 @@
 /* ============================================= */
 /* base */
 /* colors */
+/* breakpoint */
 /* ============================================= */
 /* Base Imports */
 /* ============================================= */
@@ -482,7 +483,7 @@ a {
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .nav-link:hover {
   color: #fff;
@@ -661,9 +662,9 @@ a {
   }
 
   [class^=col] {
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     margin-top: 0;
   }
 
@@ -738,8 +739,8 @@ a {
   }
 
   .logo {
-    margin-left: initial;
     margin-right: initial;
+    margin-left: initial;
   }
 }
 
